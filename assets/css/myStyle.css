@@ -1,0 +1,121 @@
+
+.main-menu>ul>li>a {
+    padding: 10px 25px !important;
+    display: inline-block !important;
+    color: orange !important;
+    text-decoration: none !important;
+    border-radius: 24px !important;
+    border: 2px solid orange !important;
+    transition: 0.4s linear !important;
+    margin-right: 2px !important;
+}
+
+.main-menu>ul>li>a:hover {
+    background: orange !important;
+    color: #fff !important;
+    border: 2px solid red !important;
+}
+
+
+/* Sub menu */
+
+
+.main-menu>ul>li>ul {
+    list-style: none !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 100% !important;
+    min-width: 150px !important;
+    display: none !important;
+}
+
+.main-menu>ul>li:hover>ul {
+    display: block !important;
+}
+
+.main-menu>ul>li>ul>li>a {
+    text-decoration: none !important;
+    padding: 15px 5px !important;
+    display: block !important;
+    background: orange !important;
+    margin: 3px 0px !important;
+    border-left: 3px solid black !important;
+    transition: .7s !important;
+}
+
+.main-menu>ul>li>ul>li>a:hover {
+    background: black !important;
+    color: orange !important;
+    border-left: 3px solid orange !important;
+    padding-left: 20px !important;
+}
+
+
+/* --------------- side-menu-and-banner ----------------------- */
+
+.side-menu-and-banner {
+    display: flex;
+}
+
+.side-menu-and-banner .side-menu {
+    width: 20%;
+}
+
+.side-menu-and-banner .side-menu>ul {
+    list-style: none;
+}
+
+.side-menu-and-banner .side-menu>ul>li {
+    position: relative;
+}
+
+.side-menu-and-banner .side-menu>ul>li>a {
+    text-decoration: none;
+    padding: 15px 5px;
+    display: block;
+    background: orange;
+    margin: 3px 0px;
+    border-left: 3px solid black;
+    transition: .7s;
+}
+
+.side-menu-and-banner .side-menu>ul>li>a:hover {
+    background: black;
+    color: orange;
+    border-left: 3px solid orange;
+    padding-left: 20px;
+}
+
+
+/*---------------- Side-Menu Sub-Menu --------------*/
+
+.side-menu-and-banner .side-menu>ul>li>ul {
+    list-style: none;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    min-width: 200px;
+    display: none;
+}
+
+.side-menu-and-banner .side-menu>ul>li:hover>ul {
+    display: block;
+}
+
+.side-menu-and-banner .side-menu>ul>li>ul>li>a {
+    text-decoration: none;
+    padding: 15px 5px;
+    display: block;
+    background: orange;
+    margin: 3px 0px;
+    border-left: 3px solid black;
+    transition: .7s;
+}
+
+.side-menu-and-banner .side-menu>ul>li>ul>li>a:hover {
+    background: black;
+    color: orange;
+    border-left: 3px solid orange;
+    padding-left: 20px;
+}
+
